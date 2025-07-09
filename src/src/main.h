@@ -30,7 +30,7 @@ static const int CLIENT_VERSION = 270007;
 static const bool VERSION_IS_BETA = true;
 extern const std::string CLIENT_NAME;
 
-static const unsigned int MAX_BLOCK_SIZE = 1000000;
+static const unsigned int MAX_BLOCK_SIZE = 10000000;
 static const unsigned int MAX_BLOCK_SIZE_GEN = MAX_BLOCK_SIZE/2;
 static const int MAX_BLOCK_SIGOPS = MAX_BLOCK_SIZE/50;
 static const int MAX_ORPHAN_TRANSACTIONS = MAX_BLOCK_SIZE/100;
